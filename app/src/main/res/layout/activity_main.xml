@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.jorge.gpsdrawing.MainActivity">
+
+
+    <com.example.jorge.gpsdrawing.CanvasView
+        android:id="@+id/canvas"
+        android:layout_width="368dp"
+        android:layout_height="439dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="368dp"
+        android:layout_height="48dp"
+        android:text="CLEAR CANVAS"
+        android:onClick="clearCanvas"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="455dp" />
+</android.support.constraint.ConstraintLayout>
